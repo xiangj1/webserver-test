@@ -1,0 +1,18 @@
+{
+  "name": "webserver-test",
+  "version": "1.0.0",
+  "description": "本仓库提供一个**最小可运行**的 [AstroChart](https://github.com/AstroDraw/AstroChart) 使用示例，适合快速了解：",
+  "main": "astrochart.js",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+  "gen": "node scripts/generate-data.js --date '1995-08-19T10:25:00+08:00' --lat 30.6 --lon 114.3 --house P --out data.json",
+  "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "swisseph": "^0.5.17"
+  }
+}
