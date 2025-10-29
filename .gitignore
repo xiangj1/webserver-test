@@ -37,8 +37,5 @@ coverage/
 # Generated ephemeris output
 /data.json
 
-# AstroChart downloaded artifact
-/astrochart.js
-
 # Misc
 *.swp
